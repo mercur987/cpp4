@@ -1,10 +1,6 @@
 ﻿#include <iostream>
 #include "getVolumeSurface.h"
 using namespace std;
-void getVolumeSurface(double x, double y, double z,double &volume,double &surface) {
-	volume= x * y * z;
-	surface = 2 * (x * y + x * z + y * z);
-  }
 int main() {
 	double x, y, z;
 	double volume=0, surface=0;
